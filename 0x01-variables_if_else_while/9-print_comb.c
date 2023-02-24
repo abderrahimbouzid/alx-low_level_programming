@@ -6,21 +6,17 @@
  */
 int main(void)
 {
-int i, j, k;
+int i;
 for (i = 0; i < 10; i++)
 {
-putchar(i + '0');
-for (j = i + 1; j < 10; j++)
+if (i > 0)
 {
-putchar(',');
 putchar(' ');
-putchar(j + '0');
-for (k = j + 1; k < 10; k++)
-{
-putchar(',');
-putchar(' ');
-putchar(k + '0');
 }
+putchar(i + '0');
+if(i < 9)
+{
+putchar(',');
 }
 }
 putchar('\n');
