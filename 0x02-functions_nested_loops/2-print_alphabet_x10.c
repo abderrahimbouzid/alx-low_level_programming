@@ -1,23 +1,22 @@
 #include "main.h"
-
 /**
- * print_alphabet fonction - Entry point
+ * print_alphabetx10 - prints the alphabet, in lowercase, followed by a new line
  *
  * Return: void
  */
 void print_alphabet_x10(void)
 {
-char c;
 int i = 0;
+char c;
 while (i < 10)
-c = 'a';
 {
+c = 'a';
 while (c <= 'z')
 {
-_putchar(c);
+ _putchar(c);
 c++;
 }
-_putchar('\n');
+ _putchar('\n');
 i++;
 }
 }
