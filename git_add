@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git add .
+git commit -m "bous" 
+git push origin master
