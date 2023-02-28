@@ -1,20 +1,19 @@
 #include "main.h"
-#include "_putchar.c"
+
 /**
- * _puts - check the code
- * @str: the string that we will check
+ * _puts - prints a string to stdout
+ * @str: the string to be printed
  *
- * Return: Always 0.
+ * Return: void
  */
 void _puts(char *str)
 {
-char j;
-int i = 0;
-while(j != '/0')
-{
-	_putchar(str[i]);
-	i++;
+    int i = 0;
 
-}
-_putchar('/n');
+    while (str[i] != '\0')
+    {
+        _putchar(str[i]);
+        i++;
+    }
+    _putchar('\n');
 }
