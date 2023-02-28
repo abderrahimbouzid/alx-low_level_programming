@@ -14,7 +14,7 @@ while (j != '\0')
 j = s[i];
 i++;
 }
-if(i == -1)
+if (i == 0)
 {
 return (0);
 }
