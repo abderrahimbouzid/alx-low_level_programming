@@ -14,5 +14,5 @@ while (j != '\0')
 j = s[i];
 i++;
 }
-return i;
+return i - 1;
 }
