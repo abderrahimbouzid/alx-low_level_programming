@@ -33,5 +33,5 @@ break;
 i++;
 }
 result *= sign;
-return result;
+return (result);
 }
