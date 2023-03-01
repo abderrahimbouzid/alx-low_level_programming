@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - Computes the sum of all multiples of 3 or 5 below 1024 (excluded)
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 int i, sum = 0;
