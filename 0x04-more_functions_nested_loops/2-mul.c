@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * function_name - Short description of what the function does
- * @parameter1: Description of the first parameter
- * @parameter2: Description of the second parameter
+ * mul - Multiplies two integers
  *
- * Description of what the function does in more detail.
- * Returns: Description of what the function returns
+ * @a: first integer
+ * @b: second integer
+ *
+ * Return: Product of a and b
  */
-return_type function_name(type parameter1, type parameter2)
+int mul(int a, int b)
 {
-	/* Function code goes here */
+return (a * b);
 }
