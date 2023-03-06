@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_line - prints a straight line of length n in the terminal
  * @n: the number of times the character '_' should be printed
