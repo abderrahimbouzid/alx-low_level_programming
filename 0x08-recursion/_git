@@ -2,4 +2,4 @@
 
 git add .
 git commit -m "bous" 
-git push origin masteri
+git push origin master
